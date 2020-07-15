@@ -1,5 +1,6 @@
 *venv*
 *.tfstate*
 *.terraform*
+*target*
 .idea/
 .DS_STORE

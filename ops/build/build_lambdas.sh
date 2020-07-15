@@ -4,6 +4,9 @@ set -e
 
 SRC_DIR=$(cd ../../src && pwd)
 
+rm -rf "$SRC_DIR"/api/target/
+rm -rf "$SRC_DIR"/authorizer/target/
+
 mkdir "$SRC_DIR"/api/target/
 mkdir "$SRC_DIR"/authorizer/target/
 

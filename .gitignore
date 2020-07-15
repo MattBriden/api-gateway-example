@@ -1,0 +1,5 @@
+*venv*
+*.tfstate*
+*.terraform*
+.idea/
+.DS_STORE
